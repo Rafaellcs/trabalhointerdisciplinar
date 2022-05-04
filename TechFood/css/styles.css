@@ -1,0 +1,338 @@
+/* Cores */
+
+:root {
+    --texto: #000000;
+    --texto-link: #c8c8c8;
+    --fundo: #cc7613;
+    --fundo-card: #fff;
+    --fundo-botao: #333333;
+}
+
+/* Estilos gerais*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--texto-link);
+}
+
+/* Header */
+
+header {
+    background: var(--fundo-botao);
+    width: 40%;
+    margin-left: auto;
+    margin-right: 0;
+    height: 75px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom-left-radius: 10px;
+}
+
+header a {
+    padding-left: 50px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 50px;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+
+/*minhasreceitas*/
+.receitas {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+    gap: 20px;
+    max-width: 800px;
+   
+
+}
+h3{
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+
+}
+.text{
+    width: 540px;
+    padding-left: 180px;
+    height: 200px;
+
+}
+/*encontarreceitas*/
+
+h1{
+    color: #fff;
+    padding-top: 27px;
+    padding-left: 180px;
+}
+.encontrar{
+    width: 540px;
+    padding-left: 180px;
+    height: 200px;
+
+}
+.carddareceita{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+    width: 800px;
+ 
+}
+
+
+.receitas {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+    gap: 20px;
+    max-width: 800px;
+    margin-top: none;
+
+}
+h3{
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+
+}
+.lista{
+    text-align: right;
+
+}
+ul li{
+    list-style: none;
+}
+.carddareceita p{
+   display: flex;
+   float: left;
+   flex-direction: column;
+}
+.boxdereceita{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    
+}
+.link{
+    padding-left: 10px;
+}
+i{
+    margin-right: 100px;
+}
+.boxdereceita p{
+    margin-top: 15px;
+}
+
+
+
+/*section*/
+
+.linklogin{
+    display: flex;
+    margin-top: 278px;
+    margin-left: 900px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+
+    
+}
+.imglogo{
+    height: 320px;
+    width: 400px;
+    position: fixed;
+    margin-right: 400px;
+}
+#logo{
+    margin-left: 200px;
+    height: 350px;
+    border-radius: 35%;
+
+}
+.boxreceita{
+    margin-left: 150px;
+   
+}
+
+#buttonmr{
+     
+        background-color: #000000;
+        color: #000000;
+        text-align: center;
+        padding: 12px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-top: 25px;
+        width: 80%;
+        border: none;
+        width: 200px;
+    
+}
+/* Footer */
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer img {
+    width: 50px;
+    height: 50px;
+}
+
+#social-icons a {
+    padding-left: 25px;
+}
+
+/*Tela login */
+
+#login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxdelogin {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 640px;
+}
+
+.cardlogin {
+    background-color: var(--fundo-card);
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+}
+
+.loginHeader {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.loginFooter {
+    padding-top: 10px;
+}
+
+.user-email{
+    padding-bottom: 25px;
+}
+
+.label-input {
+    padding: 10px 10px 10px 0px;
+}
+
+
+.label-input input {
+    border: 1px solid var(--fundo-botao);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+
+
+#loginButton {
+    background-color: var(--fundo-botao);
+    color: var(--fundo-card);
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 80%;
+    border: none;
+    
+}
+
+
+/* Tela de cadastro */
+
+#cadastro-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#newUserButton {
+    background-color: var(--fundo-botao);
+    color: var(--fundo-card);
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 35px;
+    width: 80%;
+    border: none;
+}
+
+
+
+      
+
+
+
